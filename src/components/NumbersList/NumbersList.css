@@ -1,0 +1,9 @@
+h3 {
+    color: white;
+    text-align: center;
+}
+ul {
+    color: white;
+    flex-direction: column;
+    margin: auto;
+}
