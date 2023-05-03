@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./ButtonCounter.css";
+import styled from 'styled-components'
 
 export interface IButtonCounterProps {
     titleIncrement: string

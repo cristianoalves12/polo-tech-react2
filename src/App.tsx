@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import ButtonCounter from './components/ButtonCounter';
-import NumbersList from './components/NumbersList/NumbersList';
+import { AppLayoutContainer, GlobalStyle } from './styles';
+import ListView from './components/ListView/ListView';
 
 const App = () => {
   return (
-    <div>
-      <ButtonCounter titleDecrement="-" titleIncrement="+"/>
-      <NumbersList />
-    </div>
+    <>
+      <GlobalStyle />
+      <AppLayoutContainer>
+        <ListView />
+      </AppLayoutContainer>
+    </>
   );
 };
 
