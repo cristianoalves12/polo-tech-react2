@@ -23,3 +23,7 @@ export const AppLayoutContainer = styled.div`
     padding: 3rem;
     min-height: 100vh;
 `;
+
+export const globalColorsObject = {
+    primaryColor: '#FFC93F '
+}

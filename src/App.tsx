@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { AppLayoutContainer, GlobalStyle } from './styles';
-import ListView from './components/ListView/ListView';
+import ListView from './screens/ListView/ListView';
 
 const App = () => {
   return (
